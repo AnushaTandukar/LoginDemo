@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anu.logindemo.MainActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:padding="1dp"
+        android:src="@drawable/image"
+        android:layout_weight="0.08"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/tv_username"
+        android:textSize="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_username"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/tv_password"
+        android:textSize="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password"
+        android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:text="Login"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn2"
+            android:padding="1dp"
+            android:text="Register"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</ScrollView>
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Email"-->
+        <!--android:id="@+id/tv_email"-->
+        <!--android:textSize="10dp"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:padding="10dp"/>-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/et_email"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Contact"-->
+        <!--android:id="@+id/tv_contact"-->
+        <!--android:textSize="10dp"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:padding="10dp"/>-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/et_contact"/>-->
+
+
